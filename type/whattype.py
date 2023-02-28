@@ -1,0 +1,42 @@
+# 介绍type函数
+# type函数可以直接获取其括号内内容的数据类型
+# 对装有内容的变量同样有效
+# python中的7种数据类型
+# 1.数字: int(范围无限) float(范围无限) 复数(complex遵守复数运算法则,如4+3j,以j结尾表示复数) bool(布尔，True表真，1，False表假,0,一定注意大小写)
+# 2.字符串: string(无论单个字符还是多个字符，都是字符串)
+# 3.字节串: bytes(由若干字节组成，完全以字节顺序组成,一经确定则不可修改)
+print(type(1))
+print(type(1.1))
+print(type(1E-2))
+print(type('z'))
+print(type('zxcvbnm'))
+print(type(True))
+print(type(False))
+print(type(3 + 4j))
+print(type(bytes()))
+
+print('---这里是分割线---')
+
+a = type(1)
+b = type(1.1)
+c = type(1E-2)
+d = type('z')
+e = type('zxcvbnm')
+f = type(True)
+g = type(False)
+h = type(3+4j)
+i = type(bytes())
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
+# 4.列表(List)
+# 5.元组(Tuple)
+# 6.集合(Set)
+# 7.字典(Dictionary)
+
